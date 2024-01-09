@@ -12,3 +12,26 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;}
+
+img{
+  width: 160px;
+  padding-bottom: 20px;
+
+  
+}
+
+
+.gallery-item {
+  width: calc(33.33% - 10px);
+ 
+  margin-bottom: 10px;
+  
+  box-sizing: border-box;
+  list-style: none;
+}
